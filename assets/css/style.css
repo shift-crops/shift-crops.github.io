@@ -1,0 +1,62 @@
+body {
+  padding-top: 30px;
+  padding-bottom: 70px;
+  /* background-color: #aaa; */
+}
+
+section, nav {
+  display: none;
+}
+
+#twitter:before {
+  content: url("../contents/img/TwitterLogo_55acee.png");
+  position: relative;
+  top: 0.25em;
+  margin-right: 0.5em;
+}
+
+#facebook:before {
+  content: url("../contents/img/FB-f-Logo__blue_29.png");
+  position: relative;
+  top: 0.25em;
+  margin-right: 0.5em;
+}
+
+.page-title {
+  margin: 3%;
+}
+
+#top .row {
+  margin: 5%;
+}
+
+#about .row, #links .row {
+  margin: 2%;
+}
+
+#about img {
+  width: 35%;
+  min-width: 10em;
+}
+
+#activity .activity-panel {
+  display: none;
+}
+
+article {
+  margin: 5%;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+article .article-detail {
+  margin-left: 5%;
+}
+
+dt {
+  margin-top: 1em;
+}
+
+dd {
+  margin-left: 2em;
+}
