@@ -25,9 +25,7 @@ function switchPage(hash){
 }
 
 function init_activity(json){
-  $.get(json, function(data){
-    data = $.parseJSON(data);
-
+  $.getJSON(json, function(data){
     $.each(data, function(i, yitem){
       $("#activity .container ul").append('<li role="presentation"><a href="javascript:void(0)">' + yitem.year + '</a></li>');
       $("#activity .container").append('<div class="activity-panel" id="' + yitem.year + '"></div>');
